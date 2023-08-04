@@ -34,7 +34,7 @@ sudo chown <your_username> /var/www/html
 sudo chmod 777 /var/www/html
 ```
 
-##Usage
+## Usage
 
 ```bash
 git clone <>
@@ -46,7 +46,7 @@ sudo mv network_scanner /var/www/html/
 
 **2. Access the web interface by navigating to http://localhost/Network.php/ in your web browser**
 
-##Cron Job Configuration
+## Cron Job Configuration
 
 To perform periodic network scans, we can set up a cron job to run Nmap at specified intervals. Open the cron table editor:
 
