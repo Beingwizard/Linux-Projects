@@ -44,7 +44,7 @@ git clone <>
 sudo mv network_scanner /var/www/html/
 ```
 
-**2. Access the web interface by navigating to http://localhost/Network.php/ in your web browser**
+**2. Access the web interface by navigating to http://your_server/Network.php/ in your web browser**
 
 ## Cron Job Configuration
 
