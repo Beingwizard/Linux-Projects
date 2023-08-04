@@ -37,7 +37,7 @@ sudo chmod 777 /var/www/html
 ## Usage
 
 ```bash
-git clone <>
+git clone <https://github.com/Beingwizard/Linux-Projects.git>
 ```
 **1. Move the project files to the Apache web server's root directory:**
 ```bash
