@@ -37,7 +37,7 @@ sudo chmod 777 /var/www/html
 ## Usage
 
 ```bash
-git clone <https://github.com/Beingwizard/Linux-Projects.git>
+git clone <https://github.com/Beingwizard/Network-Scanner.git>
 ```
 **1. Move the project files to the Apache web server's root directory:**
 ```bash
@@ -56,7 +56,7 @@ sudo crontab -e
 Add the following line to the file to run the Nmap scan every 10 minutes:
 
 ```bash
-*/10 * * * * nmap 192.168.1.0/24 -oN /var/www/html/nmap.html
+*/10 * * * * nmap <your-ip-address> -oN /var/www/html/nmap.html
 ```
 Save and close the file.
 
